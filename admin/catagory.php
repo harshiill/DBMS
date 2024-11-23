@@ -23,7 +23,10 @@
   include "includes/config.php";
 
   // todo: work with those categories catagory
-$catagory_list = ['men', 'women', 'kids', 'electronics', 'home', 'sports', 'beauty', 'furniture', 'books', 'stationary', 'grocery', 'other'];
+$catagory_list = ['ers', 'bmc', 'tpc', 'aps', 'cad', 'racing', 'afc', 
+'saaz', 'avartan', 'jazbaat', 'abhivakyati', 'shutterbox', 'samvaad', 
+'football', 'cricket', 'basketball', 'badminton', 'volleyball', 
+'kabdadi', 'lawn tennis', 'table tennis', 'chess', 'carrom', 'atheletics'];
 
 for($i=0; $i<sizeof($catagory_list); $i++){
     $sn = $i+1;

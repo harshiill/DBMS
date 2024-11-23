@@ -1,4 +1,8 @@
-<?php  session_start();
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 	include_once 'includes/config.php';
 	//  all functions
 	require_once 'functions/functions.php';
@@ -67,7 +71,7 @@
 <?php
   //  site details
     // $site_name = "HCA E-Commerce";
-    $site_address = "5900 BALCONES DRIVE STE 4129 AUSTIN TX, USA 78731";
-    $site_contact_num = "(336) 717-5310";
-    $site_info_email = "info@clickableshop.com";
+    $site_address = "IIITDMJ Campus, Jabalpur, MP, India";
+    $site_contact_num = "+91 7612794094";
+    $site_info_email = "www.iiitdmj.ac.in";
 ?>

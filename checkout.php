@@ -570,20 +570,31 @@ input {
             <script>
                 let fields = document.querySelectorAll('.child-fields input');
                 let error = document.querySelector('.error-ms');
-                function checkFields(){
-                    console.log(fields);
-                for(let i = 0 ; i < 9 ; i++)
-                {
-                    if(fields[i].value === '')
-                    {
-                        error.innerHTML = "Please fill all fields. " ;
-                    }else{
-                        error.innerHTML = "Sorry ! its Looks like its not available in your Country.  " ;
+                function checkFields() {
+    const inputs = document.querySelectorAll('.Add-child-section input');
+    const errorSpan = document.querySelector('.error-ms');
+    let allValid = true;
+    let message = '';
 
-                    }
-                } 
+    inputs.forEach(input => {
+        if (!input.value.trim()) {
+            allValid = false;
+            message = 'Please fill in all the fields.';
+            input.style.borderColor = 'red';
+        } else {
+            input.style.borderColor = '';
+        }
+    });
 
-  }
+    if (!allValid) {
+        errorSpan.textContent = message;
+    } else {
+        errorSpan.textContent = '';
+        // Proceed to payment logic here
+        alert('Form is valid. Redirecting to payment...');
+    }
+}
+
 
             
 

@@ -85,11 +85,34 @@
       </div>
       <div class="col-md-6">
         <label for="inputState" class="form-label">Category</label>
-        <select name="prod-category" value="" class="form-select">
-          <option value="all" selected>All</option>
-          <option value="men">Men</option>
-          <option value="women">Women</option>
-        </select>
+        <select name="post-category" class="form-select" required>
+  <option value="" disabled selected>Select Category</option>
+  <option value="ers">ERS</option>
+  <option value="bmc">BMC</option>
+  <option value="tpc">TPC</option>
+  <option value="aps">APS</option>
+  <option value="cad">CAD</option>
+  <option value="racing">RACING</option>
+  <option value="afc">AFC</option>
+  <option value="saaz">SAAZ</option>
+  <option value="avartan">AVARTAN</option>
+  <option value="jazbaat">JAZBAAT</option>
+  <option value="abhivakyati">ABHIVAKYATI</option>
+  <option value="shutterbox">SHUTTERBOX</option>
+  <option value="samvaad">SAMVAAD</option>
+  <option value="football">FOOTBALL</option>
+  <option value="cricket">CRICKET</option>
+  <option value="basketball">BASKETBALL</option>
+  <option value="badminton">BADMINTON</option>
+  <option value="volleyball">VOLLEYBALL</option>
+  <option value="kabadi">KABADI</option>
+  <option value="lawntennis">LAWN TENNIS</option>
+  <option value="tabletennis">TABLE TENNIS</option>
+  <option value="chess">CHESS</option>
+  <option value="carrom">CARROM</option>
+  <option value="atheletics">ATHELETICS</option>
+</select>
+
       </div>
       <div class="col-12">
         <label for="inputAddress" class="form-label">Image</label>

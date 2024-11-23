@@ -74,7 +74,7 @@
             }
 
             // define how much data to show in a page from database
-            $limit = 8;
+            $limit = 30;
             // define from which row to start extracting data from database
             $offset = ($page - 1) * $limit;
 

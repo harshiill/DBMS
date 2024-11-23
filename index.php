@@ -9,12 +9,7 @@
   // Get categories
   $categories = get_categories();
   $clothes = get_clothes_category();
-  $footwears = get_footwear_category();
-  $jewelries = get_jewelry_category();
-  $perfumes = get_perfume_category();
-  $cosmetics = get_cosmetics_category();
-  $glasses = get_glasses_category();
-  $bags = get_bags_category();
+ 
 
 
   // Get all new arrivals
@@ -48,13 +43,13 @@ $top_rated_products2 = get_top_rated_products();
   </button>
 
   <div class="toast-banner">
-    <img src="./admin/upload/watch-2.jpg" alt="Smart Watch" width="80" height="70" />
+    <img src="./admin/upload/bmc-1.jpg" alt="Smart Watch" width="80" height="70" />
   </div>
 
   <div class="toast-detail">
     <p class="toast-message">Someone in new just bought</p>
 
-    <p class="toast-title">Smart Watch</p>
+    <p class="toast-title">Saaz Merch</p>
 
     <p class="toast-meta"><time datetime="PT2M">2 Minutes</time> ago</p>
   </div>
@@ -232,8 +227,8 @@ $top_rated_products2 = get_top_rated_products();
                       </a>
 
                       <div class="price-box">
-                        <p class="price">$<?php echo $row1['discounted_price']; ?></p>
-                        <del>$<?php echo $row1['product_price']; ?></del>
+                        <p class="price">₹<?php echo $row1['discounted_price']; ?></p>
+                        <del>₹<?php echo $row1['product_price']; ?></del>
                       </div>
                     </div>
                   </div>
@@ -278,10 +273,10 @@ $top_rated_products2 = get_top_rated_products();
 
                         <div class="price-box">
                           <p class="price">
-                            $<?php echo $row2['discounted_price']; ?>
+                          ₹<?php echo $row2['discounted_price']; ?>
                           </p>
                           <del>
-                            $<?php echo $row2['product_price']; ?>
+                          ₹<?php echo $row2['product_price']; ?>
                           </del>
                         </div>
                       </div>
@@ -334,8 +329,8 @@ $top_rated_products2 = get_top_rated_products();
                       </a>
 
                       <div class="price-box">
-                        <p class="price">$<?php echo $row1['discounted_price']; ?></p>
-                        <del>$<?php echo $row1['product_price']; ?></del>
+                        <p class="price">₹<?php echo $row1['discounted_price']; ?></p>
+                        <del>₹<?php echo $row1['product_price']; ?></del>
                       </div>
                     </div>
                   </div>
@@ -379,10 +374,10 @@ $top_rated_products2 = get_top_rated_products();
 
                         <div class="price-box">
                           <p class="price">
-                            $<?php echo $row2['discounted_price']; ?>
+                          ₹<?php echo $row2['discounted_price']; ?>
                           </p>
                           <del>
-                            $<?php echo $row2['product_price']; ?>
+                          ₹<?php echo $row2['product_price']; ?>
                           </del>
                         </div>
                       </div>
@@ -434,8 +429,8 @@ $top_rated_products2 = get_top_rated_products();
                       </a>
 
                       <div class="price-box">
-                        <p class="price">$<?php echo $row1['discounted_price']; ?></p>
-                        <del>$<?php echo $row1['product_price']; ?></del>
+                        <p class="price">₹<?php echo $row1['discounted_price']; ?></p>
+                        <del>₹<?php echo $row1['product_price']; ?></del>
                       </div>
                     </div>
                   </div>
@@ -479,10 +474,10 @@ $top_rated_products2 = get_top_rated_products();
 
                         <div class="price-box">
                           <p class="price">
-                            $<?php echo $row2['discounted_price']; ?>
+                          ₹<?php echo $row2['discounted_price']; ?>
                           </p>
                           <del>
-                            $<?php echo $row2['product_price']; ?>
+                          ₹<?php echo $row2['product_price']; ?>
                           </del>
                         </div>
                       </div>
@@ -602,10 +597,10 @@ $product_left = array();
 
                   <div class="price-box">
                     <p class="price">
-                      $<?php echo $row['discounted_price'] ?>
+                    ₹<?php echo $row['discounted_price'] ?>
                     </p>
                     <del>
-                      $<?php echo $row['product_price'] ?>
+                    ₹<?php echo $row['product_price'] ?>
                     </del>
                   </div>
                 </div>
@@ -680,9 +675,9 @@ $product_left = array();
           <div class="testimonial-card">
             <img src="./images/testimonial-1 copy.jpg" alt="alan doe" class="testimonial-banner" width="80" height="80" />
 
-            <p class="testimonial-name">IQSF</p>
+            <p class="testimonial-name">Maam Preeti Khanna</p>
 
-            <p class="testimonial-title">CEO & Founder Invision</p>
+            <p class="testimonial-title">BEST PROFESSOR</p>
 
             <img src="./images/icons/quotes.svg" alt="quotation" class="quotation-img" width="26" />
 
@@ -705,7 +700,7 @@ $product_left = array();
 
             <h2 class="cta-title">Collection</h2>
 
-            <p class="cta-text">Starting $20</p>
+            <p class="cta-text">Starting ₹20</p>
 
             <button class="cta-btn">Shop now</button>
           </a>
@@ -725,7 +720,7 @@ $product_left = array();
               </div>
 
               <div class="service-content">
-                <h3 class="service-title">Worldwide Delivery</h3>
+                <h3 class="service-title">Jabalpur Delivery</h3>
                 <p class="service-desc">For Order Over $100</p>
               </div>
             </a>
@@ -737,7 +732,7 @@ $product_left = array();
 
               <div class="service-content">
                 <h3 class="service-title">Next Day delivery</h3>
-                <p class="service-desc">UK Orders Only</p>
+                <p class="service-desc">IIITDMJ Students Orders Only</p>
               </div>
             </a>
 
@@ -779,94 +774,8 @@ $product_left = array();
     </div>
   </div>
 
-  <!--
-      - BLOG
-    -->
-    <!-- image path: ./images/blog/ -->
-
-  <div class="blog">
-    <div class="container">
-      <div class="blog-container has-scrollbar">
-        <div class="blog-card">
-          <a href="#">
-            <img src="./images/blog/blog-1.jpg" alt="Clothes Retail KPIs 2021 Guide for Clothes Executives" width="300" class="blog-banner" />
-          </a>
-
-          <div class="blog-content">
-            <a href="#" class="blog-category">Fashion</a>
-
-            <a href="#">
-              <h3 class="blog-title">
-                Clothes Retail KPIs 2021 Guide for Clothes Executives.
-              </h3>
-            </a>
-
-            <p class="blog-meta">
-              By <cite>Mr Admin</cite> /
-              <time datetime="2022-04-06">Apr 06, 2022</time>
-            </p>
-          </div>
-        </div>
-
-        <div class="blog-card">
-          <a href="#">
-            <img src="./images/blog/blog-2.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle." class="blog-banner" width="300" />
-          </a>
-
-          <div class="blog-content">
-            <a href="#" class="blog-category">Clothes</a>
-
-            <h3>
-              <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
-            </h3>
-
-            <p class="blog-meta">
-              By <cite>Mr Robin</cite> /
-              <time datetime="2022-01-18">Jan 18, 2022</time>
-            </p>
-          </div>
-        </div>
-
-        <div class="blog-card">
-          <a href="#">
-            <img src="./images/blog/blog-3.jpg" alt="EBT vendors: Claim Your Share of SNAP Online Revenue." class="blog-banner" width="300" />
-          </a>
-
-          <div class="blog-content">
-            <a href="#" class="blog-category">Shoes</a>
-
-            <h3>
-              <a href="#" class="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
-            </h3>
-
-            <p class="blog-meta">
-              By <cite>Mr Selsa</cite> /
-              <time datetime="2022-02-10">Feb 10, 2022</time>
-            </p>
-          </div>
-        </div>
-
-        <div class="blog-card">
-          <a href="#">
-            <img src="./images/blog/blog-4.jpg" alt="Curbside fashion Trends: How to Win the Pickup Battle." class="blog-banner" width="300" />
-          </a>
-
-          <div class="blog-content">
-            <a href="#" class="blog-category">Electronics</a>
-
-            <h3>
-              <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
-            </h3>
-
-            <p class="blog-meta">
-              By <cite>Mr Pawar</cite> /
-              <time datetime="2022-03-15">Mar 15, 2022</time>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
+    
 </main>
 
 <?php require_once './includes/footer.php'; ?>

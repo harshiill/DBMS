@@ -1,0 +1,32 @@
+/* Styling for dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 200px; /* Set a max height */
+    overflow-y: auto; /* Make it scrollable */
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu-category:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+  }
+  
+  .dropdown-menu li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+  }
+  
